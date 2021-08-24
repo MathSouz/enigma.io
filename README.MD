@@ -35,15 +35,8 @@ Não se esqueça de rodar o comando <code>npm install</code> para que o node ins
 </br>
 <code>
 URL: PUT /auth/</br>
-Body: { </br>
-    "username": "Fulano",</br>
-    "email": "emaildofulano@email.com",</br>
-    "password": "senhafortíssima!123"</br>
-}</br>
-Resultado: {</br>
-    "success": true,</br>
-    "result": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2MTE2ZjRkMGFlNmZkZjQ3ZjRiZGI0M2MiLCJpYXQiOjE2Mjk3NTg3ODl9.BCIZlr2ZnngZ0xgi6JcWpznekyXZR4sJ0NCJqXGmE2k"</br>
-}</br>
+Body: { "username": "Fulano", "email": "emaildofulano@email.com", "password": "senhafortíssima!123" }</br>
+Resultado: { "success": true, "result": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2MTE2ZjRkMGFlNmZkZjQ3ZjRiZGI0M2MiLCJpYXQiOjE2Mjk3NTg3ODl9.BCIZlr2ZnngZ0xgi6JcWpznekyXZR4sJ0NCJqXGmE2k" }</br>
 </code>
 
 <code>POST /auth/register/</code>
