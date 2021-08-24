@@ -16,6 +16,10 @@ JWT é a chave secreta do Json Web Token.</br>
 ROUNDS Salt Rounds do bcrypt é o fator de custo, tempo necessário para calcular um único hash. Valor Padrão: 10.</br>
 DB_HOST é a string de conexão do mongodb. Ex.: mongodb://localhost:27017/dbname.</br>
 
+<h2>Instalação</h2>
+
+Não se esqueça de rodar o comando <code>npm install</code> para que o node instale os módulos utilizados no backend.
+
 <h2>Inicialização</h2>
 
 <code>npm start start</code> é o mesmo que <code>node index.js</code>
