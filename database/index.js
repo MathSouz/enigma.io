@@ -1,6 +1,8 @@
+require('dotenv').config()
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb://localhost:27017/enigma-io", {useFindAndModify: true, useCreateIndex: true, useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
+console.log("Estabelecendo conexão com o banco de dados...");
+mongoose.connect(process.env.DB_HOST, {useFindAndModify: true, useCreateIndex: true, useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
     if(err)
     {
         console.log(err);
