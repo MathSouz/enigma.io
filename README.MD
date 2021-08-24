@@ -33,7 +33,7 @@ Não se esqueça de rodar o comando <code>npm install</code> para que o node ins
 </br>
 <b>Exemplo</b>
 </br>
-URL: <code>PUT /auth/</code></br>
+URL: <code>http://localhost:3000/auth/</code></br>
 Body: <code>{ "username": "Fulano", "email": "emaildofulano@email.com", "password": "senhafortíssima!123" }</code></br>
 Resultado: <code>{ "success": true, "result": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2MTE2ZjRkMGFlNmZkZjQ3ZjRiZGI0M2MiLCJpYXQiOjE2Mjk3NTg3ODl9.BCIZlr2ZnngZ0xgi6JcWpznekyXZR4sJ0NCJqXGmE2k" }</code></br>
 
