@@ -33,11 +33,9 @@ Não se esqueça de rodar o comando <code>npm install</code> para que o node ins
 </br>
 <b>Exemplo</b>
 </br>
-<code>
-URL: PUT /auth/</br>
-Body: { "username": "Fulano", "email": "emaildofulano@email.com", "password": "senhafortíssima!123" }</br>
-Resultado: { "success": true, "result": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2MTE2ZjRkMGFlNmZkZjQ3ZjRiZGI0M2MiLCJpYXQiOjE2Mjk3NTg3ODl9.BCIZlr2ZnngZ0xgi6JcWpznekyXZR4sJ0NCJqXGmE2k" }</br>
-</code>
+URL: <code>PUT /auth/</code></br>
+Body: <code>{ "username": "Fulano", "email": "emaildofulano@email.com", "password": "senhafortíssima!123" }</code></br>
+Resultado: <code>{ "success": true, "result": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2MTE2ZjRkMGFlNmZkZjQ3ZjRiZGI0M2MiLCJpYXQiOjE2Mjk3NTg3ODl9.BCIZlr2ZnngZ0xgi6JcWpznekyXZR4sJ0NCJqXGmE2k" }</code></br>
 
 <code>POST /auth/register/</code>
 <i>Entra o username, email e senha e retorna o resultado do registro. Caso o registro tiver sucesso (ou seja, o username e email foram aceitos) retornará os dados do usuário com exceção da senha.</i>
